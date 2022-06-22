@@ -199,7 +199,7 @@ h3{
 
 /* ---- Media Queries - change the design at 823px for mobile device */
 @media only screen and (max-width: 823px) {
-  .desktop-cover, .navbar, .features-div, .footer-1, .footer-3, .slg, .reviews, .outer-flex, .outer-flex .inner-flex, .inner-flex div,  .bottom , .quest-class , .mySwiper{
+  .desktop-cover, .navbar, .features-div, .footer-1, .footer-3, .slg, .reviews, .outer-flex, .outer-flex .inner-flex, .inner-flex div,  .bottom , .quest-class , .mySwiper , .console-cover{
     display:  none;
   }
   .privacy-policy p{
@@ -209,4 +209,12 @@ h3{
     display: block;
     margin-top: 5%;
 }
+
+.quest-class { 
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; width: 1px; 
+    margin: -1px; padding: 0; border: 0; 
+  }
 }
