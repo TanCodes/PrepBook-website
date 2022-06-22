@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;900&display=swap');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+/* anchors */
+a {
+    text-decoration: none;
+    color: rgba(78, 68, 236, 1);
+}
+
+a:hover { 
+    color: rgba(78, 68, 236, 1);
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+/* COVER IMAGE */
+.cover-photo{
+    height: 85vh;
+    width: 100%;
+}
+
+/* ------------------------------------------------ NAV BAR ------------------------------------------------ */
+.navbar{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.navbar-nav{
+    width: 40%;
+}
+.connect{
+    margin-right: 5%;
+}
+h2{
+    font-size: 2rem;
+    margin: 4% 2% 2% 2%;
+    font-weight: 600;
+}
+p{
+    font-size: 1.3rem;
+}
+.top-btn{
+    height: 5vh;
+
+}
+
+/* ------------------------------------------------ MODAL FOR PREMIUM ------------------------------------------------ */
+.text-yellow{
+    color: yellow;
+}
+
+.download-btn{
+    width:  50%;
+}
+
+.card-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+/* ------------------------------------------------ Features Section ------------------------------------------------ */
+.features-div{
+    margin-bottom: 2%;
+}
+.feature-div img{
+    width: 80%;
+}
+
+/* ----------------------  Quest for Excellence : CENTER SECTION -------------------------------*/
+/*  creating diff image - right */
+.console-cover{
+    filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    height: 65vh;
+}
+.inner-flex{
+    width: 70%;
+}
+.inner-flex div{
+    padding: 0 0 1% 4%;
+}
+.shorter-div{
+    font-size: 2.8rem;
+    font-stretch: expanded;  
+    font-weight: bolder;
+}
+.outer-flex{
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+    width: 70%;
+    margin-top: 1%;
+    height: 70vh;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+/* tagline */
+.slg{
+    margin: 1%;
+    padding: 2%;
+}
+
+h3{
+    text-align: center;
+    color: rgba(78, 68, 236, 1);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+/* ------------------------------------------------ FOOTER ------------------------------------------------ */
+.footer-1 span{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.footer-1 p{
+    font-size: 1.2rem;
+}
+.footer-3 img{
+    width: 60%;
+}
+.footer-3 h3{
+    font-size: 1.2rem;
+}
+.bottom{
+    background-color: rgba(108, 99, 255, 0.94)
+    ;
+    text-align: center;
+    color: #ffffff;
+    padding:1%;
+}
+.bottom a{
+    color: #ffffff;
+}
+
+.footer-icon-div div img:hover {
+    transform: rotate(180deg);
+    transition: transform .5s linear;
+}
+
+/* ------------------------------------------------ MOBILE VIEW CSS ------------------------------------------------ */
+.cover-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 2% 0 4% 0;
+}
+.prep{
+    font-weight: 400;
+}
+.book{
+    font-weight: 400;
+    color: rgba(59, 31, 228, 1);
+}
+
+.mobile-top{
+    margin-bottom: 4%;
+}
+.mobile-console{
+    max-height: 60vh;
+    width: 100%;
+    margin: 4% 0 4% 0 ;
+}
+
+.mobile-download-btn{
+    height: 7vh;
+    margin: 4% 0 0 0 ;
+}
+.mobile-foot{
+    font-size: 0.8rem;
+}
+.foot-text{
+    font-weight: 600;
+}
+.mobile-cover{
+    display: none;
+  }
+
+/* text animation in mobile */
+.text-animation1 ::after {
+    content: "";
+    position: relative
+}
+/* ------------------------------------------------ END OF MOBILE VIEW CSS ------------------------------------------------ */
+
+/* privacy policy */
+.privacy-policy h3{
+    color: #000000;
+    text-align: left;
+    font-weight: 600;
+}
+
+/* ---- Media Queries - change the design at 823px for mobile device */
+@media only screen and (max-width: 823px) {
+  .desktop-cover, .navbar, .features-div, .footer-1, .footer-3, .slg, .reviews, .outer-flex, .outer-flex .inner-flex, .inner-flex div,  .bottom , .quest-class , .mySwiper{
+    display:  none;
+  }
+  .privacy-policy p{
+    font-size: 0.8rem;
+  }
+  .mobile-cover{
+    display: block;
+    margin-top: 5%;
+}
+}
