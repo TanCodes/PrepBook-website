@@ -1,6 +1,9 @@
 // Modal - Bootstrap
 $(document).ready(function(){
+  if(screen.width > 823){
     $('#premiumModal').modal('show');
+  }
+    
 }); 
 
 //  reviews section - Swiper js 
