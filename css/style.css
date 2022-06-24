@@ -101,7 +101,9 @@ p{
     justify-content: center;
     border-radius: 10px;
 }
-
+.center-download-btn{
+    width: 40%;
+}
 /* tagline */
 .slg{
     margin: 1%;
@@ -115,8 +117,6 @@ h3{
     font-weight: 800;
     font-size: 1.4rem;
 }
-/* ------------------------------  Swiper---------------------------------- */
-
 
 /* ------------------------------------------------ FOOTER ------------------------------------------------ */
 .footer-1 span{
