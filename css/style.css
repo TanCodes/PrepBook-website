@@ -217,7 +217,7 @@ h3{
     66%{
       margin-top: -120px;
     }
-    82%{
+    82%{ 
       margin-top: -60px;
     }
     100%{
@@ -237,7 +237,7 @@ h3{
 /* ---- Media Queries - change the design at 823px for mobile device */
 @media only screen and (max-width: 823px) {
   .desktop-cover, .navbar, .features-div, .footer-1, .footer-3, .slg, .reviews, .outer-flex, .outer-flex .inner-flex, .inner-flex div,  .bottom , .quest-class , .mySwiper , .console-cover {
-    display:  none;
+    display:  none !important;
   }
   .privacy-policy p{
     font-size: 0.8rem;
